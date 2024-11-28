@@ -5,50 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Link to Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Link to AOS (Animate On Scroll) for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
     <header>
         <h1>Welcome to My Portfolio</h1>
     </header>
     
-    <section id="about">
+    <section id="about" data-aos="fade-up">
         <h2>About Me</h2>
-        <p>Hello! I'm Apurbo Biswas, a passionate Engineer.</p>
+        <img src=""D:\Personal\Apurbo\Twitter\-iuiu3g.jpg"" alt="Apurbo Biswas" class="profile-img">
+        <p>Hello! I'm Apurbo Biswas, a passionate Engineer. I specialize in software development, web design, and problem-solving. My goal is to create impactful, user-centered solutions.</p>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" data-aos="fade-up">
         <h2>My Skills</h2>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Git & GitHub</li>
-            <li>C++</li>
-            <li>C#</li>
-            <li>Java</li>
+            <li><i class="fas fa-code"></i> HTML</li>
+            <li><i class="fas fa-css3-alt"></i> CSS</li>
+            <li><i class="fas fa-js-square"></i> JavaScript</li>
+            <li><i class="fas fa-python"></i> Python</li>
+            <li><i class="fab fa-github"></i> Git & GitHub</li>
+            <li><i class="fas fa-cogs"></i> C++</li>
+            <li><i class="fas fa-cogs"></i> C#</li>
+            <li><i class="fab fa-java"></i> Java</li>
         </ul>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" data-aos="fade-up">
         <h2>My Projects</h2>
         <ul>
-            <li><a href="#">Project 1</a></li>
+            <li><a href="https://github.com/ApurboBro/VirtuAdopt">Project 1</a></li>
             <li><a href="#">Project 2</a></li>
             <li><a href="#">Project 3</a></li>
         </ul>
     </section>
 
+    <!-- Testimonials Section -->
+    <section id="testimonials" data-aos="fade-up">
+        <h2>What People Say</h2>
+        <div class="testimonial">
+            <p>"Apurbo is a talented developer. He worked on my project and delivered excellent results!"</p>
+            <p>- John Doe, CEO of Company X</p>
+        </div>
+        <div class="testimonial">
+            <p>"A dedicated and reliable engineer. Highly recommend working with Apurbo!"</p>
+            <p>- Jane Smith, Project Manager at Company Y</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" data-aos="fade-up">
+        <h2>My Blog</h2>
+        <ul>
+            <li><a href="#">How to Build a Portfolio Website</a></li>
+            <li><a href="#">The Importance of Responsive Design</a></li>
+            <li><a href="#">10 Tips for Improving JavaScript Skills</a></li>
+        </ul>
+    </section>
+
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" data-aos="fade-up">
         <h2>Contact Me</h2>
-        <p>Email: apurbobiswas32.com</p>
+        <p>Email: apurbobiswas32@gmail.com</p>
+        <p>Find me on:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/apurbo-biswas-04a168316/">LinkedIn</a></li>
+            <li><a href="https://github.com/ApurboBro">GitHub</a></li>
+            <li><a href="https://x.com/apurbobiswas32">Twitter</a></li>
+        </ul>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" data-aos="fade-up">
+        <h2>Interested in working together?</h2>
+        <p>If you have a project in mind or just want to say hello, feel free to reach out!</p>
+        <a href="#contact" class="cta-button">Contact Me</a>
     </section>
 
     <footer>
-        <p>Connect with me on <a href="#">LinkedIn</a> or <a href="#">GitHub</a></p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a> or <a href="https://github.com/yourusername">GitHub</a></p>
     </footer>
+
+    <!-- Link to AOS (Animate On Scroll) JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();  // Initialize AOS animation
+    </script>
 </body>
 </html>
